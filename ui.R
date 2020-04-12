@@ -24,6 +24,7 @@ shinyUI(f7Page(
         ),
 
         leafletOutput("map"),
+        tags$style(type = "text/css", "#map {height: calc(100vh - 80px) !important;}"),
         
         #leafletOutput("map"),
         #tags$style(type = "text/css", "#map {height: calc(100vh - 80px) !important;}"),
