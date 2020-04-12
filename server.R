@@ -26,7 +26,7 @@ md$lbl <- paste0("<b>", md$id,"</b><br>", md$notes, "<br>", md$time)
 icons <- awesomeIcons(icon = "whatever",
                       iconColor = "black",
                       library = "ion",
-                      markerColor = tmp$FLAG)
+                      markerColor = md$FLAG)
 
 # Define server logic required to draw a histogram
 shinyServer(function(input, output, session) {
