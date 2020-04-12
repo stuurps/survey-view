@@ -18,11 +18,7 @@ shinyUI(f7Page(
     f7SingleLayout(
         navbar = f7Navbar(
             title = "Tree Survey",
-            subtitle = f7Link(
-                label = "Submit an ID",
-                src = "https://treesurvey.online/shiny/tree-survey",
-                external = T
-            ),
+            subtitle = a("Get In Touch", href = "mailto:barkerstu@gmail.com"),
             hairline = F,
             shadow = T
         ),
@@ -36,8 +32,8 @@ shinyUI(f7Page(
         toolbar = f7Toolbar(
             position = "bottom",
             f7Link(
-                label = "Trees of Bristol",
-                src = "https://bristoltrees.space/Tree/",
+                label = "Submit an ID",
+                src = "https://treesurvey.online/shiny/survey",
                 external = T
             ),
             f7Link(
