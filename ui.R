@@ -22,8 +22,7 @@ shinyUI(f7Page(
             hairline = F,
             shadow = T
         ),
-        
-        DT::dataTableOutput("mytable"),
+
         leafletOutput("map"),
         
         #leafletOutput("map"),
