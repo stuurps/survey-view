@@ -37,7 +37,7 @@ shinyUI(f7Page(
                 external = T
             ),
             f7Link(
-                label = "Submit an ID",
+                label = "Survey",
                 src = "https://treesurvey.online/shiny/survey",
                 external = T
             )
