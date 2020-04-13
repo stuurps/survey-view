@@ -32,13 +32,13 @@ shinyUI(f7Page(
         toolbar = f7Toolbar(
             position = "bottom",
             f7Link(
-                label = "Submit an ID",
-                src = "https://treesurvey.online/shiny/survey",
+                label = "Home",
+                src = "https://treesurvey.online/",
                 external = T
             ),
             f7Link(
-                label = "Bristol Tree Forum",
-                src = "https://bristoltreeforum.org/",
+                label = "Submit an ID",
+                src = "https://treesurvey.online/shiny/survey",
                 external = T
             )
         )
