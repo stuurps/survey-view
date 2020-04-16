@@ -10,7 +10,7 @@ library(shinyMobile)
 md <- read.csv("/srv/shiny-server/survey/id_output.csv")
 #md <- read.csv("/Users/stuartbarker/Documents/survey/id_output.csv")
 
-md <- md[2:nrow(md),]
+md <- md[1:nrow(md),]
 md <- md[order(-md$row_id),]
 
 md$FLAG <- "0"
