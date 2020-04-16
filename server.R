@@ -20,7 +20,7 @@ if(nrow(md) < 5){
 md$FLAG[1:5,] <- "1"
 }
 
-md$lbl <- paste0("<b>", md$id,"</b><br>", md$notes, "<br>", md$time, "<br>"," survey id: ",md$row_id)
+md$lbl <- paste0("<b>", md$id,"</b><br>", md$notes, "<br>", md$time, "<br>"," Survey Id: ",md$row_id)
 
 
 icons <- awesomeIcons(icon = "whatever",
