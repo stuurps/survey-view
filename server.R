@@ -13,11 +13,11 @@ md <- read.csv("/srv/shiny-server/survey/id_output.csv")
 md <- md[1:nrow(md),]
 md <- md[order(-md$row_id),]
 
-md$FLAG <- "0"
+md$FLAG <- "blue"
 if(nrow(md) < 5){
-    md$FLAG <- "1"
+    md$FLAG <- "green"
 } else {
-md$FLAG[1:5] <- "1"
+md$FLAG[1:5] <- "green"
 }
 
 md$lbl <- paste0("<b>", md$id,"</b><br>", md$notes, "<br>", md$time, "<br>"," Survey Id: ",md$row_id)
