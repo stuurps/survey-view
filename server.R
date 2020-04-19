@@ -17,7 +17,7 @@ md$FLAG <- "0"
 if(nrow(md) < 5){
     md$FLAG <- "1"
 } else {
-md$FLAG[1:5,] <- "1"
+md$FLAG[1:5] <- "1"
 }
 
 md$lbl <- paste0("<b>", md$id,"</b><br>", md$notes, "<br>", md$time, "<br>"," Survey Id: ",md$row_id)
